@@ -20,7 +20,7 @@ In HTML, JavaScript code is inserted between <script> and </script> tags.
 
 Example
 
-```
+```javascript
 <script>
     document.getElementById("demo").innerHTML = "My First JavaScript";
 </script>    
@@ -33,7 +33,7 @@ javascript files have the file extension **.js**
 
 To use an external script, put the name of the script file in the src (source) attribute of a **<script>** tag:
 
-```
+```javascript
  <script src="myScript.js"></script> 
 ```
 
@@ -63,17 +63,17 @@ An external script can be referenced in 3 different ways:
 - Without any path
 
 This example uses a **full URL** to link to myScript.js:
-```
+```javascript
  <script src="https://www.w3schools.com/js/myScript.js"></script> 
-``` 
+```
 
 This example uses a **file path** to link to myScript.js:
-```
+```javascript
  <script src="/js/myScript.js"></script> 
 ```
 
 This example uses **no path** to link to myScript.js:
-```
+```javascript
  <script src="myScript.js"></script> 
 ```
 
