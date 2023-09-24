@@ -55,3 +55,26 @@ To add several script files to one page  - use several script tags:
 ```
 
 #### External References
+
+An external script can be referenced in 3 different ways:
+
+- With a full URL (a full web address)
+- With a file path (like /js/)
+- Without any path
+
+This example uses a **full URL** to link to myScript.js:
+```
+ <script src="https://www.w3schools.com/js/myScript.js"></script> 
+``` 
+
+This example uses a file path to link to myScript.js:
+```
+ <script src="/js/myScript.js"></script> 
+```
+
+This example uses no path to link to myScript.js:
+```
+ <script src="myScript.js"></script> 
+```
+
+
