@@ -163,4 +163,93 @@ x = 5;       // Now x is a Number
 x = "John";  // Now x is a String 
 ```
 
+### Javascript Strings 
+A string (or a text string) is a series of characters like "John Doe".
+Strings are written with quotes. You can use single or double quotes:
 
+```javascript
+// Using double quotes:
+let carName1 = "Volvo XC60";
+
+// Using single quotes:
+let carName2 = 'Volvo XC60';
+```
+
+You can use quotes inside a string, as long as they don't match the quotes surrounding the string:
+```javscript
+// Single quote inside double quotes:
+let answer1 = "It's alright";
+
+// Single quotes inside double quotes:
+let answer2 = "He is called 'Johnny'";
+
+// Double quotes inside single quotes:
+let answer3 = 'He is called "Johnny"';
+```
+
+### Javascript Numbers
+All JavaScript numbers are stored as decimal numbers (floating point).
+
+Numbers can be written with, or without decimals:
+```javascript
+// With decimals:
+let x1 = 34.00;
+
+// Without decimals:
+let x2 = 34; 
+```
+
+### Exponential Notation
+Extra large or extra small numbers can be written with scientific (exponential) notation:
+
+```javascript
+let y = 123e5;    // 12300000
+let z = 123e-5;   // 0.00123 
+```
+
+### Javascript BigInt
+All JavaScript numbers are stored in a a 64-bit floating-point format.
+JavaScript BigInt is a new datatype (ES2020) that can be used to store integer values that are too big to be represented by a normal JavaScript Number.
+
+```javascript
+ let x = BigInt("123456789012345678901234567890"); 
+```
+
+### Javascript Booleans 
+Booleans can only have two values: **true** or **false**.
+
+```javascript
+let x = 5;
+let y = 5;
+let z = 6;
+(x == y)       // Returns true
+(x == z)       // Returns false 
+```
+
+### Javascript Arrays
+
+JavaScript arrays are written with square brackets.
+Array items are separated by commas.
+The following code declares (creates) an array called cars, containing three items (car names):
+
+```javascript
+ const cars = ["Saab", "Volvo", "BMW"]; 
+```
+
+Array indexes are zero-based, which means the first item is [0], second is [1], and so on.
+
+### Javascript Objects
+
+JavaScript objects are written with curly braces {}.
+Object properties are written as name:value pairs, separated by commas.
+
+```javascript
+ const person = {firstName:"John", lastName:"Doe", age:50, eyeColor:"blue"};
+```
+
+The object (person) in the example above has 4 properties: firstName, lastName, age, and eyeColor.
+
+### The typeof Operator
+
+You can use the JavaScript typeof operator to find the type of a JavaScript variable.
+The typeof operator returns the type of a variable or an expression:
