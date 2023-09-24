@@ -52,7 +52,7 @@ To add several script files to one page  - use several script tags:
 ```javascript
 <script src="myScript1.js"></script>
 <script src="myScript2.js"></script> 
-```javascript
+```
 
 #### External References
 
