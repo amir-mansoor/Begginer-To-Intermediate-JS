@@ -4,7 +4,7 @@ JavaScript syntax is the set of rules, how JavaScript programs are constructed:
 
 you don't need to understand what's going on here it's just a basic syntax
 
-```
+```javascript
 // How to create variables:
 var x;
 let y;
@@ -30,7 +30,7 @@ In this first example, x, y, and z are undeclared variables.
 They are automatically declared when first used:
 
 Example 
-```
+```javascript
 x = 5;
 y = 6;
 z = x + y;
@@ -89,7 +89,7 @@ The object data type can contain:
 - A date
 
 #### Examples
-```
+```javascript
 // Numbers:
 let length = 16;
 let weight = 7.5;
@@ -126,7 +126,7 @@ let x = 16 + "Volvo";
 Does it make any sense to add "Volvo" to sixteen? Will it produce an error or will it produce a result?
 JavaScript will treat the example above as:
 
-```
+```javascript
 let x = "16" + "Volvo";
 ```
 
@@ -134,21 +134,21 @@ let x = "16" + "Volvo";
 When adding a number and a string, JavaScript will treat the number as a string as we see above.
 
 **JavaScript evaluates expressions from left to right. Different sequences can produce different results:**
-```
+```javascript
 let x = 16 + 4 + "Volvo"; 
 ```
 result will be 
 
-```
+```javascript
 20Volvo
 ```
 
 another example
-```
+```javascript
 let x = "Volvo" + 16 + 4; 
 ```
 Result
-```
+```javascript
 Volvo164 
 ```
 
@@ -157,7 +157,7 @@ In the second example, since the first operand is a string, all operands are tre
 
 ### JavaScript Types are Dynamic
 JavaScript has dynamic types. This means that the same variable can be used to hold different data types:
-```
+```javascript
 let x;       // Now x is undefined
 x = 5;       // Now x is a Number
 x = "John";  // Now x is a String 
