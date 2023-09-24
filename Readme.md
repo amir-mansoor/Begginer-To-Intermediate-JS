@@ -36,3 +36,6 @@ To use an external script, put the name of the script file in the src (source) a
 ```
  <script src="myScript.js"></script> 
 ```
+
+> **External scripts cannot contain <script> tags.**
+
