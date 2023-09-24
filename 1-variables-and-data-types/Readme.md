@@ -19,7 +19,7 @@ let z = x + y;
 
 ##### Variables are Containers for Storing Data
 
-JavaScript Variables can be declared in 4 ways:
+JavaScript Variables can be declared in 3 ways:
 
 - Using var 
 - Using const 
