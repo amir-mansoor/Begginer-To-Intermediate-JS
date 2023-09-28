@@ -16,7 +16,7 @@ let b = 20;
 let c = a + b
 ```
 
-we can also do multiplication with this operator *****
+we can also do multiplication with this operator *
 
 ++ is used for increment 
 example 
